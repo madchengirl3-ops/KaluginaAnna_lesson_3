@@ -1,9 +1,4 @@
-const isAdmin = false; 
-const hasToken = false;
+let x = 20;
 
-if (isAdmin || hasToken) {
-    console.log('Доступ разрешен');
-  
-} else {
-    console.log('Нет доступа');
-}
+console.log(x >= 10 && x <= 20 && x != 15);
+
