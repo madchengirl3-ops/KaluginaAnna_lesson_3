@@ -1,11 +1,13 @@
-for (let i = 1; i <= 10; i++) {
-    if (i === 7) {
-        continue;
-    }
-    if (i === 9) {
-        break;
-    }
-    console.log(i);
+const a = 1;
+const b = 10;
+const c = 15;
+
+if (a > b && a > c) {
+    console.log(a);
     
+} else if (b > a && b > c) {
+    console.log(b);
+} else {
+    console.log(c)
 }
 
