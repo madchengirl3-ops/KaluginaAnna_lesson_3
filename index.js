@@ -1,4 +1,9 @@
-for (let i = 1; i <= 10; i++) {
-    console.log(i**2);
-    
+const isAdmin = false; 
+const hasToken = false;
+
+if (isAdmin || hasToken) {
+    console.log('Доступ разрешен');
+  
+} else {
+    console.log('Нет доступа');
 }
