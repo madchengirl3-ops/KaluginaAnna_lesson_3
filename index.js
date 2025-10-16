@@ -1,4 +1,7 @@
-let x = 20;
+let n = 5;
 
-console.log(x >= 10 && x <= 20 && x != 15);
+while (n >= 0) {
+    console.log(n);
+    n--;
+}
 
