@@ -1,13 +1,19 @@
-const a = 1;
-const b = 10;
-const c = 15;
+const temp = 35;
 
-if (a > b && a > c) {
-    console.log(a);
+if (temp < -30) {
+    console.log('Оставайтесь дома!');
     
-} else if (b > a && b > c) {
-    console.log(b);
+} else if (temp >= -30 && temp < -10) {
+    console.log('Сегодня холодно');
+} else if (temp >= -10 && temp < 5) {
+    console.log('Не холодно');
+} else if (temp >= 5 && temp < 15) {
+    console.log('Тепло');
+} else if (temp >= 15 && temp < 25) {
+    console.log('Очень тепло');
+} else if (temp >= 25 && temp < 35) {
+    console.log('Жарко');
 } else {
-    console.log(c)
+    console.log('Пекло!');
 }
 
