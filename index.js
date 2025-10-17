@@ -1,19 +1,18 @@
-const temp = 35;
+let role = 'guest';
 
-if (temp < -30) {
-    console.log('Оставайтесь дома!');
-    
-} else if (temp >= -30 && temp < -10) {
-    console.log('Сегодня холодно');
-} else if (temp >= -10 && temp < 5) {
-    console.log('Не холодно');
-} else if (temp >= 5 && temp < 15) {
-    console.log('Тепло');
-} else if (temp >= 15 && temp < 25) {
-    console.log('Очень тепло');
-} else if (temp >= 25 && temp < 35) {
-    console.log('Жарко');
-} else {
-    console.log('Пекло!');
+switch (role) {
+    case 'admin':
+        console.log('Добро пожаловать, администратор!');
+        break;
+    case 'manager':
+        console.log('Привет, менеджер!');
+        break;
+    case 'user':
+        console.log('Рады видеть вас снова!');
+        break;
+    case 'guest':
+        console.log('Пожалуйста, войдите в систему!')
+        break;
+        
 }
 
